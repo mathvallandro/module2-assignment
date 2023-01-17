@@ -1,1 +1,132 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 400px;
+}
+#T1 {
+	background: lightyellow;
+}
+#T2 {
+	background: lightcoral;
+}
+#T3 {
+	background: lightgreen;
+}
+@media (min-width: 992px) {
+	div {
+		float: left;
+		margin-left: 30px;
+	}
+	div#container1 {
+		border: 1px solid black;
+		background: grey;
+		width: 30%;
+	}
+	div#container2 {
+		border: 1px solid black;
+		background: grey;
+		width: 30%;
+	}
+	div#container3 {
+		border: 1px solid black;
+		background: grey;
+		width: 30%;
+	}
+	h2 {
+		text-align: center;
+		font-family: Arial Black;
+		background: skyblue;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		padding: 5px;
+		margin-left: auto;
+		width: fit-content;
+	}
+	p {
+		text-align: left;
+		padding: 5px;
+		font-family: Arial;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	div {
+		float: left;
+		margin-left: 30px;
+	}
+	div#container1 {
+		border: 1px solid black;
+		background: grey;
+		width: 45.5%;
+	}
+	div#container2 {
+		border: 1px solid black;
+		background: grey;
+		width: 45.5%;
+	}
+	div#container3 {
+		border: 1px solid black;
+		background: grey;
+		width: 94%;
+		margin: 30px;
+	}
+	h2 {
+		text-align: center;
+		font-family: Arial Black;
+		background: skyblue;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		padding: 5px;
+		margin-left: auto;
+		width: fit-content;
+	}
+	p {
+		text-align: left;
+		padding: 5px;
+		font-family: Arial;
+	}
+}
 
+@media (max-width: 767px) {
+	div {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+	div#container1 {
+		border: 1px solid black;
+		background: grey;
+		width: 80%;
+	}
+	div#container2 {
+		border: 1px solid black;
+		background: grey;
+		width: 80%;
+	}
+	div#container3 {
+		border: 1px solid black;
+		background: grey;
+		width: 80%;
+	}
+	h2 {
+		text-align: center;
+		font-family: Arial Black;
+		background: skyblue;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		padding: 5px;
+		margin-left: auto;
+		width: fit-content;
+	}
+	p {
+		text-align: left;
+		padding: 5px;
+		font-family: Arial;
+	}
+}
